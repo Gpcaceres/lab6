@@ -3,16 +3,16 @@ name: CI/CD workflow
 on:
   push:
     branches: [main]
-  pull_request:  # ❌ antes decía "pull request"
+  pull_request:  
     branches: [main]
 
 jobs:
-  build-and-test:  # ❌ antes: "bud-and-test"
-    runs-on: ubuntu-latest  # ❌ antes: "runs" y "ubuntu-lastest"
+  build-and-test: 
+    runs-on: ubuntu-latest  
     
     steps:
       - name: Clonar repositorio
-        uses: actions/checkout@v4  # ❌ antes: "fases" y mal escrito "actioins"
+        uses: actions/checkout@v4 
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
