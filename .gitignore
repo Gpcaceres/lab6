@@ -1,7 +1,11 @@
 # Proyecto Node.js
-
-node_modules/         # Directorio de dependencias
-.env                  # Archivo de variables de entorno
-npm-debug.log         # Archivo de log de npm
-coverage/             # Directorio de cobertura de pruebas
-.DS_Store             # Archivo del sistema operativo macOS
+# Directorio de dependencias
+node_modules/
+# Archivo de variables de entorno         
+.env   
+# Archivo de log de npm               
+npm-debug.log
+#Directorio de cobertura de pruebas         
+coverage/    
+# Archivo del sistema operativo macOS
+.DS_Store             
